@@ -1,6 +1,36 @@
 body
 {
-    color: rgb(9, 255, 0);
+    color: black;
     text-align: center;
     font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera
+{
+    background-color: darkblue;
+    box-shadow: darkcyan;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 1px;
+    background-color: white;
+    font-weight: normal;
+    font-size: 0px ;
+}
+
+#container
+{
+    width: 70%;
+    padding: 0%;
+    text-align: left;
+    border: 1px solid cornsilk;
+    margin: 0 auto;
 }
